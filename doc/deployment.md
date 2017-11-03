@@ -1,13 +1,13 @@
-#Как развернуть в проде
+# Как развернуть в проде
 
-##Клиент
+## Клиент
 > Путь должен быть абсолютным. В конце обязательно должна присутствовать папка **build**.
 > Для сборки выполнить команду из корневой дирректории проекта:
 ```
 cross-env NODE_ENV=production PUBLIC_PATH=<project_folder>/build/client/build/ webpack --config ./webpack/webpack.config-prod.babel.js --progress -p
 ```
 
-##Web Сервер
+## Web Сервер
 > выполнить команду из корневой дирректории проекта:
 ```
 cross-env NODE_ENV=production PUBLIC_PATH=<project_folder>/build/server/ webpack --config ./webpack/webpack.config-server.babel.js --progress
@@ -18,7 +18,7 @@ cross-env NODE_ENV=production PUBLIC_PATH=<project_folder>/build/server/ webpack
 node bin/prod.js
 ```
 
-####Список переменных 
+#### Список переменных 
 * API_URL,
 * NODE_ENV = production / development,
 * WEB_PORT,
