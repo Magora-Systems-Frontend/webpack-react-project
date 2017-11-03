@@ -1,5 +1,5 @@
-#Шаблонный проект для React
-##Фитчи:
+# Шаблонный проект для React
+## Фитчи:
 > Серверный рендеринг
 
 > Возможность использовать миксины stylus без прямого подключения внутри проекта 
@@ -14,7 +14,7 @@
 
 > Split code [ссылка на доку](https://webpack.js.org/guides/code-splitting/).
 
-##Рекомендации
+## Рекомендации
 > В Idea отметьте директорию src как Resource Root. Это нужно для того, чтобы у 
 > вас правильно подсвечивался import в файлах.
 
@@ -26,6 +26,6 @@
 > React Developer Tools.
 > [Для Хрома](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 
-####[Инструкция по разворачиванию](./doc/deployment.md)
-####[Описание stylus темы](./doc/theme.md)
-####[Известные проблемы](./doc/troubles.md)
+#### [Инструкция по разворачиванию](./doc/deployment.md)
+#### [Описание stylus темы](./doc/theme.md)
+#### [Известные проблемы](./doc/troubles.md)
