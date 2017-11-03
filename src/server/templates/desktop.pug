@@ -1,0 +1,11 @@
+html
+  head
+    title React boilerplate
+    link(rel="icon" type="image/png" href="http://ru-ru.facebook.com/favicon.ico")
+    link(rel="stylesheet" href="build/desktop.css")
+    link(href="http://allfont.ru/allfont.css?fonts=disneypark" rel="stylesheet" type="text/css")
+    script!= state
+  body
+    #content.container!= markup
+    script(src="build/common-desktop.js")
+    script(src="build/desktop.js")

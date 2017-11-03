@@ -1,0 +1,36 @@
+class = sign-in-form
+
+.{class} {
+  width 400px;
+  height: 300px;
+  top: 0;
+  bottom 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  border-radius 9px;
+  padding: 20px;
+  background-color: gray
+
+  &__group{
+    width: 100%;
+    margin-bottom 20px;
+  }
+
+  &__input{
+    width 100%;
+  }
+
+  &__error{
+    color: #000;
+    font-size: 13px;
+  }
+
+  &__submit{
+    $m-btn();
+    text-align left
+    background-color: white;
+    border 1px solid #333;
+  }
+}

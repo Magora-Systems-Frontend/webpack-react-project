@@ -1,0 +1,45 @@
+{
+  "env": {
+    "development": {
+      "plugins": [
+        "transform-object-rest-spread",
+        "transform-regenerator",
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        "syntax-dynamic-import",
+        "dynamic-import-webpack",
+        ["module-resolver", {
+          "root": [
+            "./src"
+          ]
+        }],
+        "transform-react-jsx-source"
+      ],
+      "presets": [
+        "env",
+        "react"
+      ]
+    },
+    "production": {
+      "plugins": [
+        "transform-object-rest-spread",
+        "transform-regenerator",
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        "syntax-dynamic-import",
+        "dynamic-import-webpack",
+        ["module-resolver", {
+          "root": [
+            "./src"
+          ]
+        }],
+        "transform-runtime"
+      ],
+      "presets": [
+        "env",
+        "react",
+        "react-optimize"
+      ]
+    }
+  }
+}

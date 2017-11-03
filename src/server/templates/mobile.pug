@@ -1,0 +1,10 @@
+html
+  head
+    title React boilerplate
+    link(rel="icon" type="image/png" href="http://ru-ru.facebook.com/favicon.ico")
+    link(rel="stylesheet" href="build/mobile.css")
+    script!= state
+  body
+    #content.container!= markup
+    script(src="build/common-mobile.js")
+    script(src="build/mobile.js")
